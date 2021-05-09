@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+
+html {
+    font-size: 14px;
+    font-family: 'Monterrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+#slideImg{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1));
+    position: absolute;
+    top: 0;
+}
+
+.navbar{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.logo{
+    flex-basis: 10px;
+}
+
+.logo img{
+    width: 160px;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 960px;
+    display: flex;
+    background-color: #B7B7B7;
+    border-radius: 20px;
+}
+
+.logo img:hover{
+    border: 3px solid #96D2E5;
+}
+
+nav a{
+    color: #3F3B3B;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+nav a:hover{
+    border: 3px solid #96D2E5;
+}
+
+.content{
+    width: 60%;
+    margin: 160px auto 0;
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 80px;
+}
+
+.content h3{
+    width: 80%;
+    margin: 20px auto 100px;
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 25px;
+}
+
+.copyright{
+    background-color: #DAD9DC;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3F3B3B;
+    text-align: center;
+    font-weight: 100;
+}
