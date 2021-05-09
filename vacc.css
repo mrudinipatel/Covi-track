@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #E0D9F7;
+    font-size: 14px;
+    font-family: 'Monterrat', sans-serif;
+    box-sizing: border-box;
+}
+  
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    color: #3F3B3B;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.logo{
+    flex-basis: 10px;
+}
+
+.logo img{
+    width: 160px;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 1020px;
+    margin-left: 30px;
+    display: flex;
+    background-color: #B7B7B7;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0px rgb(218, 214, 214);
+}
+
+.logo img:hover{
+    border: 3px solid #96D2E5;
+}
+
+nav a{
+    color: #3F3B3B;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+
+nav a:hover{
+    border: 3px solid #96D2E5;
+}
+
+nav{
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+#location img{
+    width:128px;
+    margin: 50px;
+    border: 3px solid #C6B3FF;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+    box-shadow: 5px 5px 5px 5px rgb(168, 168, 168);
+}
+  
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.container{
+    margin-top: 100px;
+    align-content: center;
+}
+
+.subheaders{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
+
+.input-group{
+    margin: 200px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
