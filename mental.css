@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+html {
+  font-size: 14px;
+  font-family: 'Monterrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFEBFD;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color: #3F3B3B;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+  
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+  
+.logo{
+    flex-basis: 10px;
+}
+  
+.logo img{
+    width: 160px;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 1020px;
+    margin-left: 30px;
+    display: flex;
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+  
+.logo img:hover{
+    border: 3px solid #96D2E5;
+}
+  
+nav a{
+    color: #3F3B3B;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+    background-color: #E3E3E3;
+    border-radius: 20px;
+}
+  
+nav a:hover{
+    border: 3px solid #96D2E5;
+}
+  
+nav{
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.contents{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contents h3{
+    margin-top: 50px;
+    color: #E1B2DC;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contents p{
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: #3F3B3B;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.contents h4{
+    margin-top: 50px;
+    color: #E1B2DC;
+    font-size: 23px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+/*
+.contents img{
+    border-radius: 30px;
+    margin-left: 330px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+}
+*/
+
+.copyright{
+    background-color: #DAD9DC;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3F3B3B;
+    text-align: center;
+    font-weight: 100;
+}
