@@ -25,7 +25,9 @@ The Covi-track website was constructed using html5, css3, and JavaScript. The co
 With this being our first 24-hour hackathon, our team ran into some time-constraints early on, however, with strong communication and critical-thinking skills we were able to put together a decent platform for our Covi-track idea.
 
 ## Accomplishments that we're proud of
-Despite the obstacles we faced, our team is proud of the fact that we managed to pull off creating _both_ an app and website. With little to none prior knowledge on fundamental aspects of JavaScript, we our proud of our 'symptom tracker' on our webpage and our app's ability connect users to themed video calls with peers from their community.
+Despite the obstacles we faced, our team is proud of the fact that we managed to pull off creating _both_ an app and website. We weren’t entirely sure if we would be able to create 2 different models in such a short time, so completing the entire project was very exciting.
+
+More specifically we are also proud of our 'symptom tracker' on our webpage and our app's ability connect users to themed video calls with peers from their community.
 
 ## What we learned
 Through this 24-hour hackathon, we surely learned valuable skills regarding UX/UI design as well as web development (i.e. JavaScript integration).
