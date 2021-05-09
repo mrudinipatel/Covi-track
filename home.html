@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covi-track</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body onload="slider()">
+    <div class = "banner">
+        <div class = "slider">
+            <img src="home.jpg" alt="Clipart image of the medical tools" id="slideImg">
+        </div>
+
+        <div class ="overlay">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo1.png" alt="App Logo">
+                </div>
+
+                <nav>
+                    <a href = "mental.html">Mental Health</a>
+                    <a href = "vacc.html">Vaccinations</a>
+                    <a href = "symptom.html">Symptoms Tracker</a>
+                </nav>
+            </div>
+
+            <div class="content">
+                <h1>Welcome to</h1>
+                <h3>Covi-track</h3>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var slideImg = document.getElementById("slideImg");
+        var images = new Array(
+            "home.jpg",
+            "home2.jpg",
+            "home3.jpg",
+            "home4.jpg",
+            );
+
+        var len = images.length;
+        var i = 0;
+
+        function slider(){
+            if(i > len - 1){
+                i = 0;
+            }
+            slideImg.src = images[i];
+            i++;
+
+            setTimeout('slider()', 2500);
+        }
+    </script>
+
+</body>
+<p class="copyright">Copyright &copy; 2021 by Covi-track. All rights reserved.</p>
+</html>
