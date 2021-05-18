@@ -21,6 +21,8 @@ All prototypes of the Covi-track app have been created using figma.
 
 The Covi-track website was constructed using html5, css3, and JavaScript. The code was built on the Visual Studio Software.
 
+We also incorporated an Augmented Reality (AR) feature by using echoAR's software (please see link to 'vaccinated token' below).
+
 ## Challenges we ran into
 With this being our first 24-hour hackathon, our team ran into some time-constraints early on, however, with strong communication and critical-thinking skills we were able to put together a decent platform for our Covi-track idea.
 
@@ -40,5 +42,7 @@ Our team did not get around to making the website compatible with all screen-siz
 We also hope to implement a individual Google Maps API, to allow users to directly schedule appointments and view nearby medical locations from the Covi-track's app and website.
 
 ## Links
-https://console.echoar.xyz/webar?key=patient-lab-1584&entry=c3806c09-b64b-421b-93b1-b4931ae7c88d
-https://www.figma.com/file/A7KwjcPryWPx8pGKLdG17p/CoviTrack?node-id=5%3A0
+CoviTrack Demo: https://www.youtube.com/watch?v=bLtYY-8p5m8
+echoAR Feature: https://console.echoar.xyz/webar?key=patient-lab-1584&entry=c3806c09-b64b-421b-93b1-b4931ae7c88d
+App Prototype: https://www.figma.com/file/A7KwjcPryWPx8pGKLdG17p/CoviTrack?node-id=5%3A0
+TOHacks 2021 Devpost Submission: https://devpost.com/software/covitrack-qkeisl
