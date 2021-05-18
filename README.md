@@ -38,3 +38,7 @@ Aside from technical skills, our team also learned the importance of strong comm
 Our team did not get around to making the website compatible with all screen-sizes in the given timeframe, but in the near future we hope to update its sources using additional css features such as flex-box. Moreover, we hope to implement the sass framework on our css source file to minimize existing redundancies and make our webpages more easily modifiable in the future.
 
 We also hope to implement a individual Google Maps API, to allow users to directly schedule appointments and view nearby medical locations from the Covi-track's app and website.
+
+## Links
+https://console.echoar.xyz/webar?key=patient-lab-1584&entry=c3806c09-b64b-421b-93b1-b4931ae7c88d
+https://www.figma.com/file/A7KwjcPryWPx8pGKLdG17p/CoviTrack?node-id=5%3A0
