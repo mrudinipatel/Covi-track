@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vacc.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Covi-track Vaccinations</title>
+</head>
+<body>
+    <h1 class="title">Vaccinations</h1>
+
+    <div class ="overlay">
+        <div class="navbar">
+            <div class="logo">
+              <div class="logo">
+                <a href="index.html">
+                  <img src="logo1.png" alt="App Logo">
+                </a>
+              </div>
+            </div>
+    
+            <nav>
+                <a href = "symptom.html">Symptoms Tracker</a>
+                <a href = "vacc.html">Vaccinations</a>
+                <a href = "mental.html">Mental Health</a>
+            </nav>
+        </div>
+
+    <div id="location">
+        <a href="https://www.google.ca/maps/search/Pharmacies/@43.476642,-80.4651008,14z/data=!3m1!4b1"  target="_blank" rel="noopener noreferrer">
+            <img src="map.png" alt="A Circular Google Maps Image">
+        </a>
+
+        <p>Click on the map to find your nearest pharmacy location to book your vaccination appointment.</p>
+    </div>
+
+    <div class="container">
+		<div class="subheaders">
+            <h2>Appointment Date</h2>
+            <h4>Your Appointment is scheduled on: </h4>
+		</div>
+		<div class="row">
+	        <div class='col-sm-6'>
+	        	<form>
+		            <div class="form-group">
+		                <div class='input-group date' id='datepicker'>
+		                    <input type='text' class="form-control" />
+		                    <span class="input-group-addon">
+		                        <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+		                </div>
+		            </div>
+                </form>
+	        </div>
+	    </div>
+	</div>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+    
+    <script >
+	    $(function () {
+	        $('#datepicker').datepicker({
+	            format: "dd/mm/yyyy",
+	            autoclose: true,
+	            todayHighlight: true,
+		        showOtherMonths: true,
+		        selectOtherMonths: true,
+		        autoclose: true,
+		        changeMonth: true,
+		        changeYear: true,
+		        orientation: "button"
+	        });
+	    });
+	</script>
+
+</body>
+</html>
