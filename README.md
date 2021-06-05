@@ -42,8 +42,6 @@ Our team did not get around to making the website compatible with all screen-siz
 We also hope to implement a individual Google Maps API, to allow users to directly schedule appointments and view nearby medical locations from the Covi-track's app and website.
 
 ## Links
-CoviTrack Website Link: https://mrudinipatel.github.io/Covi-track/
-
 CoviTrack Demo: https://www.youtube.com/watch?v=bLtYY-8p5m8
 
 echoAR Feature: https://console.echoar.xyz/webar?key=patient-lab-1584&entry=c3806c09-b64b-421b-93b1-b4931ae7c88d
